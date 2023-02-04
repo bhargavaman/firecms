@@ -1772,77 +1772,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@camberi/firecms_collection_editor@workspace:collection_editor":
-  version: 0.0.0-use.local
-  resolution: "@camberi/firecms_collection_editor@workspace:collection_editor"
-  dependencies:
-    "@camberi/firecms": "workspace:lib"
-    "@emotion/react": ^11.10.5
-    "@emotion/styled": ^11.10.5
-    "@mui/icons-material": ^5.10.16
-    "@mui/lab": ^5.0.0-alpha.111
-    "@mui/material": ^5.10.17
-    "@types/react": ^18.0.26
-    "@types/react-dom": ^18.0.9
-    "@typescript-eslint/eslint-plugin": ^5.45.1
-    "@typescript-eslint/parser": ^5.45.1
-    "@vitejs/plugin-react": ^2.2.0
-    algoliasearch: ^4.14.2
-    eslint: ^8.29.0
-    eslint-config-standard: ^17.0.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-n: ^15.6.0
-    eslint-plugin-promise: ^6.1.1
-    eslint-plugin-react: ^7.31.11
-    eslint-plugin-react-hooks: ^4.6.0
-    firebase: ^9.14.0
-    flexsearch: 0.7.31
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router: ^6.4.4
-    react-router-dom: ^6.4.4
-    react-scripts: ^5.0.1
-    typescript: ^4.9.3
-    vite: ^3.2.5
-    vite-plugin-fonts: ^0.6.0
-  languageName: unknown
-  linkType: soft
-
-"@camberi/firecms_user_management@workspace:user_management":
-  version: 0.0.0-use.local
-  resolution: "@camberi/firecms_user_management@workspace:user_management"
-  dependencies:
-    "@camberi/firecms": "workspace:lib"
-    "@emotion/react": ^11.10.5
-    "@emotion/styled": ^11.10.5
-    "@mui/icons-material": ^5.10.16
-    "@mui/lab": ^5.0.0-alpha.111
-    "@mui/material": ^5.10.17
-    "@types/react": ^18.0.26
-    "@types/react-dom": ^18.0.9
-    "@typescript-eslint/eslint-plugin": ^5.45.1
-    "@typescript-eslint/parser": ^5.45.1
-    "@vitejs/plugin-react": ^2.2.0
-    algoliasearch: ^4.14.2
-    eslint: ^8.29.0
-    eslint-config-standard: ^17.0.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-n: ^15.6.0
-    eslint-plugin-promise: ^6.1.1
-    eslint-plugin-react: ^7.31.11
-    eslint-plugin-react-hooks: ^4.6.0
-    firebase: ^9.14.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router: ^6.4.4
-    react-router-dom: ^6.4.4
-    react-scripts: ^5.0.1
-    typescript: ^4.9.3
-    vite: ^3.2.5
-    vite-plugin-fonts: ^0.6.0
-  languageName: unknown
-  linkType: soft
-
 "@csstools/normalize.css@npm:*":
   version: 12.0.0
   resolution: "@csstools/normalize.css@npm:12.0.0"
@@ -3900,16 +3829,6 @@ __metadata:
   version: 1.1.0
   resolution: "@protobufjs/utf8@npm:1.1.0"
   checksum: f9bf3163d13aaa3b6f5e6fbf37a116e094ea021c0e1f2a7ccd0e12a29e2ce08dafba4e8b36e13f8ed7397e1591610ce880ed1289af4d66cf4ace8a36a9557278
-  languageName: node
-  linkType: hard
-
-"@react-oauth/google@npm:0.2.8":
-  version: 0.2.8
-  resolution: "@react-oauth/google@npm:0.2.8"
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: 389422596d5065489b3e24db74e9ee7d49fbac070530a271deb7ca07f013d59b5bcd64e1b3a15543eff537393ba6465526546c9edd6a29051edf3b14ed72f25b
   languageName: node
   linkType: hard
 
@@ -9132,13 +9051,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flexsearch@npm:0.7.31":
-  version: 0.7.31
-  resolution: "flexsearch@npm:0.7.31"
-  checksum: 9817d8909a0d07d98e2c31f8a39cbc91be7a900cc3f86d74214ee49d00b6f3b133b883a3a19154de1d2064519494002dcfb1a30fbc65c8ef44259c3655fa8f39
-  languageName: node
-  linkType: hard
-
 "follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.0":
   version: 1.15.2
   resolution: "follow-redirects@npm:1.15.2"
@@ -9939,9 +9851,9 @@ __metadata:
   linkType: hard
 
 "http-cache-semantics@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "http-cache-semantics@npm:4.1.0"
-  checksum: 974de94a81c5474be07f269f9fd8383e92ebb5a448208223bfb39e172a9dbc26feff250192ecc23b9593b3f92098e010406b0f24bd4d588d631f80214648ed42
+  version: 4.1.1
+  resolution: "http-cache-semantics@npm:4.1.1"
+  checksum: 83ac0bc60b17a3a36f9953e7be55e5c8f41acc61b22583060e8dedc9dd5e3607c823a88d0926f9150e571f90946835c7fe150732801010845c72cd8bbff1a236
   languageName: node
   linkType: hard
 
@@ -16034,43 +15946,6 @@ __metadata:
   checksum: cb4f97ad25a75ebc11a8ef4e33bb962f8af8516bb2001082ceabd8902e15b98f4b84b4f8a9b222e5d57fc3bd1379c483886ed4619367a7680dad65316993021d
   languageName: node
   linkType: hard
-
-"saas@workspace:saas":
-  version: 0.0.0-use.local
-  resolution: "saas@workspace:saas"
-  dependencies:
-    "@camberi/firecms": "workspace:lib"
-    "@camberi/firecms_collection_editor": "workspace:collection_editor"
-    "@emotion/react": ^11.10.5
-    "@emotion/styled": ^11.10.5
-    "@mui/icons-material": ^5.10.16
-    "@mui/lab": ^5.0.0-alpha.111
-    "@mui/material": ^5.10.17
-    "@react-oauth/google": 0.2.8
-    "@types/react": ^18.0.26
-    "@types/react-dom": ^18.0.9
-    "@typescript-eslint/eslint-plugin": ^5.45.1
-    "@typescript-eslint/parser": ^5.45.1
-    "@vitejs/plugin-react": ^2.2.0
-    algoliasearch: ^4.14.2
-    eslint: ^8.29.0
-    eslint-config-standard: ^17.0.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-n: ^15.6.0
-    eslint-plugin-promise: ^6.1.1
-    eslint-plugin-react: ^7.31.11
-    eslint-plugin-react-hooks: ^4.6.0
-    firebase: ^9.14.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router: ^6.4.4
-    react-router-dom: ^6.4.4
-    react-scripts: ^5.0.1
-    typescript: ^4.9.3
-    vite: ^3.2.5
-    vite-plugin-fonts: ^0.6.0
-  languageName: unknown
-  linkType: soft
 
 "sade@npm:^1.7.3":
   version: 1.8.1
